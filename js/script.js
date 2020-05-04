@@ -48,7 +48,7 @@ function verificar() {
         img.setAttribute("src", "foto-idoso-f.png");
       }
     }
-    res.innerHTML = `Detectado: ${genero} com ${idade} anos de idade.`;
+    res.innerHTML = `<p>Detectado: ${genero} com ${idade} anos de idade.</p>`;
     //Vinculando o elemento 'img' ao div com id 'res'
     res.appendChild(img);
   }
