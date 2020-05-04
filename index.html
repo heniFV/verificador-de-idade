@@ -11,8 +11,25 @@
       <h1>Verificador de idade</h1>
     </header>
     <section>
-      <div></div>
-      <div></div>
+      <div>
+        <p>
+          Ano de nascimento
+          <input type="number" name="txtAno" id="txtAno" min="0" />
+        </p>
+        <p>
+          Sexo
+          <!-- Masculino -->
+          <input type="radio" name="txtSex" id="masc" checked />
+          <label for="masc">Masculino</label>
+          <!-- feminino -->
+          <input type="radio" name="txtSex" id="fem" />
+          <label for="fem">Feminino</label>
+        </p>
+        <p><input type="button" value="Verificar" onclick="verificar()" /></p>
+      </div>
+      <div id="res">
+        <p>Preencha os dados para verificar.</p>
+      </div>
     </section>
     <footer>&copy; Direitos reservados</footer>
     <script src="./js/script.js"></script>
